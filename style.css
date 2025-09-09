@@ -1,0 +1,312 @@
+#navigation{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.712));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#navigation>ul{
+    display: flex;
+    margin-right: 20px;
+}
+#navigation>ul>li{
+    list-style: none;
+    margin: 0px 5px;
+    margin-left:-5px;
+    padding: 15px 0px;
+    
+    
+}
+#navigation>ul>li>a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    border-right: 1.5px solid rgb(0, 0, 0);
+    padding-right: 20px;
+    padding-left: 20px;
+    transition: 0.5s;
+
+}
+#navigation>ul>li:hover>a{
+    color:rgb(166, 220, 77);
+
+
+
+
+} 
+/* logo design */
+.logo{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+
+.firstlatter{
+    color: rgb(166, 220, 77);
+    font-size:30px;
+}
+.bd{
+    color: rgb(166, 220, 77);
+    font-size: 30px;
+}
+/* dropdown menu code start */
+
+
+
+.dropdown{
+    opacity: 0;
+    visibility: hidden;
+    background-color: rgb(166, 220, 77) ;
+    text-align: center;
+    margin-top: 15px;
+    width: 100px;
+    position: absolute;
+    transition: 0.5s;
+    transform: scaleY(0);
+    transform-origin: top;
+    box-shadow: 10px 10px 8px black;
+}
+.dropdown>li{
+list-style: none;
+padding: 5px;
+}
+.dropdown>li>a{
+    text-decoration: none;
+    color: black;
+}
+#navigation>ul>li:hover>.dropdown{
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1);
+}
+.dropdown>li:hover{
+    background-color: rgba(0, 0, 0, 0.418);
+}
+
+/* hero area code star  */
+#main-header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.377), rgba(77, 67, 9, 0.377)), url("image/istockphoto-1222545055-612x612.jpg");
+    text-align: center;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+
+}
+.header-container{
+    padding: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+.header-container>h2{
+  background-color: rgba(81, 255, 0, 0.164);
+  width: 700px;
+  margin: 20px auto;
+  border-radius: 10px;
+  
+}
+/* button  */
+.header-container> button{
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-top: 30px;
+    background-color: rgba(14, 94, 7, 0.329);
+    color: white;
+    border-radius: 20px 10px 20px 10px;
+    border: 2px solid rgb(0, 0, 0);
+    cursor: pointer;
+
+}
+.header-container> button:hover{
+    background-color: rgba(81, 202, 44, 0.712);
+}
+
+/* icon design */
+.icon > a{
+    color: whitesmoke;
+    text-decoration: none;
+    
+}
+.icon{
+    text-align: end;
+    
+ 
+
+}
+.icon > a >i{
+    width: 30px;
+    height: 30px;
+    line-height:1.5;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 5px;
+    border: solid 1px rgba(0, 38, 255, 0.637);
+    border-radius:50% ;
+    margin-top: 50px 5px;
+    transition: 0.5s;
+   
+}
+.icon > a >i:hover{
+   background-color: black;
+   border: 2px solid rgba(81, 202, 44, 0.712);
+   transform: rotate(360deg);
+
+}
+/* first-container */
+
+#first-container{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0px;
+}
+.Programming{ 
+    
+    width: 300px;
+    text-align: center;
+    padding: 30px 10px ;
+    transition: 0.5s;
+}
+.Programming>i{
+    font-size: 50px;
+}
+.Programming>h2{
+    margin: 15px 0px;
+}
+.Programming:hover{
+    box-shadow: 3px 3px 10px gray;
+}
+
+
+
+/* 2nd section code start here */
+
+.title > h2{
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+
+
+}
+.title>h2::after{
+
+    content: "";
+    top:50px;
+    right: 628px;
+    width: 100px;
+    height: 5px;
+    background-color: rgb(95, 29, 29);
+    position: absolute;
+
+}
+.smart-area{
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0px;
+}
+.smart-are-text{
+    width: 500px;
+}
+.smart-are-text>h2{
+    margin: 20px 0px;
+}
+.smart-are-text>h4{
+    color: rgb(95, 29, 29);
+}
+.smart-are-text>a{
+    text-decoration: none;
+    background-color: rgb(95, 29, 29);
+    color: white;
+    font-size: 20px;
+    padding: 10px 30px;
+    margin: 20px 0px;
+    display: inline-block;
+    border-radius: 5px;
+    transition: 0.5s;   
+}
+.smart-are-text> a:hover{
+    background-color: rgb(27, 1, 1);
+}
+
+
+/* Third section code start here */
+
+
+.Services-area-title{
+    text-align: center;
+    padding: 40px 0px 60px 0px;
+}
+.Services-area-title>h2{
+    font-size: 40px;
+}
+.parent{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px;
+    padding-bottom: 60px;
+}
+.Service-area{
+    width: 1200px;
+    margin: auto;
+}
+.icon-design:hover{
+    box-shadow: 3px 3px 10px gray;
+    
+    
+
+}
+.icon-design{
+    text-align: center;
+    padding: 30px 0px;
+}
+.icon-design>i{
+    font-size: 35px;
+    color:rgb(166, 220, 77) ;
+}
+.icon-design>h3{
+    margin: 15px 0px;
+}
+#third-section{
+    background-color: rgba(179, 139, 90, 0.096);
+    
+}
+
+
+/* section fourt start here  */
+.parent{
+    width: 1000px;
+    margin: auto;
+}
+
+.pricing-area-container{
+    display: flex;
+    justify-content: space-between;
+}
+.ocp{
+    text-align: center;
+    font-size: 35px;
+    padding: 50px 0px;
+
+}
+.singleimge{
+    width: 300px ;
+ 
+ 
+  
+}
+.singleimge > img{
+    max-width: 100%;
+     
+}
+.single-cart{
+    width: 300px;
+    
+}
