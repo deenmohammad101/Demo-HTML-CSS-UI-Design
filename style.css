@@ -32,7 +32,7 @@
 
 }
 #navigation>ul>li:hover>a{
-    color:rgb(166, 220, 77);
+    color:rgb(255, 0, 0);
 
 
 
@@ -59,7 +59,7 @@
 .dropdown{
     opacity: 0;
     visibility: hidden;
-    background-color: rgb(166, 220, 77) ;
+    background-color: rgba(20, 141, 101, 0.459) ;
     text-align: center;
     margin-top: 15px;
     width: 100px;
@@ -88,7 +88,7 @@ padding: 5px;
 
 /* hero area code star  */
 #main-header{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.377), rgba(77, 67, 9, 0.377)), url("image/istockphoto-1222545055-612x612.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.377), rgba(77, 67, 9, 0.377)), url("image/web\ header.jpg");
     text-align: center;
     height: 90vh;
     background-repeat: no-repeat;
@@ -98,15 +98,17 @@ padding: 5px;
 
 }
 .header-container{
-    padding: 30px;
-    color: rgb(255, 255, 255);
+    padding: 150px;
+    color: rgb(0, 0, 0);
     font-size: 25px;
 }
 .header-container>h2{
-  background-color: rgba(81, 255, 0, 0.164);
-  width: 700px;
+  background-color: rgba(0, 255, 213, 0.164);
+  color: white;
+  width: 500px;
   margin: 20px auto;
   border-radius: 10px;
+  padding: 15px 20px;
   
 }
 /* button  */
@@ -114,15 +116,17 @@ padding: 5px;
     font-size: 20px;
     padding: 10px 20px;
     margin-top: 30px;
-    background-color: rgba(14, 94, 7, 0.329);
+    background-color: rgba(7, 94, 75, 0.329);
     color: white;
     border-radius: 20px 10px 20px 10px;
     border: 2px solid rgb(0, 0, 0);
     cursor: pointer;
+    transition: 0.5s;
 
 }
 .header-container> button:hover{
-    background-color: rgba(81, 202, 44, 0.712);
+    background-color: rgba(0, 0, 0, 0.514);
+    border:2px solid rgb(235, 9, 9) ;
 }
 
 /* icon design */
@@ -131,28 +135,29 @@ padding: 5px;
     text-decoration: none;
     
 }
-.icon{
+/* .icon{
     text-align: end;
     
  
 
-}
+} */
 .icon > a >i{
     width: 30px;
     height: 30px;
     line-height:1.5;
+    margin: 15px 5px;
     font-size: 20px;
     background-color: rgba(0, 0, 0, 0);
     padding: 5px;
-    border: solid 1px rgba(0, 38, 255, 0.637);
+    border: solid 1px rgba(0, 0, 0, 0.795);
     border-radius:50% ;
-    margin-top: 50px 5px;
+
     transition: 0.5s;
    
 }
 .icon > a >i:hover{
    background-color: black;
-   border: 2px solid rgba(81, 202, 44, 0.712);
+   border: 2px solid rgba(255, 0, 0, 0.712);
    transform: rotate(360deg);
 
 }
