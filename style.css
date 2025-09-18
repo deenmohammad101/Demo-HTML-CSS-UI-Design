@@ -545,7 +545,7 @@ padding: 5px;
 
 }
 .form-button{
-    background-color:rgba(1, 4, 150, 0.938);
+    background-color:#023364;
     color: white;
     padding: 10px;
     border: none;
@@ -562,7 +562,7 @@ padding: 5px;
     text-align: center;
 }
 .form-adress i {
-    background-color: rgba(218, 109, 7, 0.692) ;
+    background-color: rgb(7, 204, 218) ;
     color: rgb(15, 14, 14);
     padding: 20px;
     border-radius: 50%;
@@ -571,4 +571,78 @@ padding: 5px;
 .form-adress span{
     font-weight: bold;
 
+}
+
+
+/* footer section code start  */
+
+footer{
+    background-color:#0691a3;
+    color: rgb(53, 51, 51);
+}
+
+
+.footer-container{
+    width: 1000px;
+    margin: auto;
+}
+.footersingle-item-parent{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-single-item{
+    width: 220px;
+    overflow: hidden;
+}
+.footer-single-item >h3{
+    color: black;
+    padding: 50px 0px 20px 0px;
+}
+.p1{
+   margin-bottom: 20px;
+}
+.p2{
+    margin: 10px 0;
+}
+.footer-single-item i {
+    color: rgb(0, 0, 0);
+}
+.footersingle-item-parent .footer-single-item:nth-child(2) p{
+    margin: 10px 0px;
+}
+.footersingle-item-parent .footer-single-item:nth-child(3) p{
+    margin: 10px 0px;
+}
+.footersingle-item-parent .footer-single-item:nth-child(4) p{
+    margin: 10px 0px;
+}
+.footersingle-item-parent .footer-single-item:nth-child(4) a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+.footer-menuitem ul{
+    display: flex;
+    justify-content: center;
+}
+.footer-menuitem ul li{
+    list-style: none;
+    margin: 20px;
+}
+.footer-menuitem ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.footer-menuitem p{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.footer-menuitem span{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 18px;
+}
+hr{
+    margin-top: 40px;
 }
